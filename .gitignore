@@ -1,0 +1,101 @@
+# ================================================
+# Unreal Engine .gitignore
+# ================================================
+
+# Build and Intermediate files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Script/
+.vscode/
+.vs/
+.idea/
+
+# Configuration files generated per-user
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Ignore project build settings for local machine
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcuserdata/
+
+# Ignore platform-specific intermediate files
+*.log
+*.tlog
+*.obj
+*.pdb
+*.exe
+*.dll
+*.app
+*.dylib
+*.so
+
+# Ignore temporary files
+*_tmp.*
+*.temp
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore Unreal Engine auto-generated folders
+# These will regenerate when you open the project
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Ignore packaged builds
+WindowsNoEditor/
+LinuxNoEditor/
+MacNoEditor/
+Android_ASTC/
+Android_ETC2/
+Android_DXT/
+HTML5/
+IOS/
+
+# Ignore crash reports and logs
+CrashReportClient/
+*.log
+
+# Ignore local config overrides
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+Config/DefaultGameUserSettings.ini
+
+# Ignore compiled shader caches
+*.ushadercache
+*.uasset.tmp
+*.umap.tmp
+
+# Ignore backup files
+*_Backup.*
+Backup*/
+
+# Ignore AutoSDKs
+Engine/Extras/ThirdPartyNotUE/AutoSDK/
+
+# ================================================
+# Keep source assets and configuration
+# ================================================
+!Source/
+!Content/
+!Config/
+!Plugins/
+!*.uproject
+!*.uplugin
+/PUREVR.xcworkspace
+*.sln
+.vsconfig
+Content/VRTemplate/Maps/VRTemplateMap.umap
